@@ -18,6 +18,61 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/annotations-api.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/catalina.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/catalina-ant.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/catalina-ha.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/catalina-storeconfig.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/catalina-tribes.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/ecj-4.6.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/el-api.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/jasper.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/jasper-el.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/jaspic-api.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/jsp-api.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
@@ -33,7 +88,42 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/tomcat-coyote.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/tomcat-dbcp.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/tomcat-i18n-es.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/tomcat-i18n-fr.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/tomcat-i18n-ja.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/tomcat-i18n-ru.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/tomcat-jdbc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Softwares/apache-tomcat-8.5.37-windows-x64/apache-tomcat-8.5.37/lib/tomcat-jni.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>

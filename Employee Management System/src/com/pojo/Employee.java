@@ -1,3 +1,12 @@
+/*
+ * Employee
+ * 
+ * 1.0
+ *
+ * 18/01/2019
+ * 
+ * Copyright notice
+ */
 package com.pojo;
 
 public class Employee {

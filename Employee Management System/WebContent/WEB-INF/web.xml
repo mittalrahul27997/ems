@@ -3,52 +3,77 @@
   <display-name>Employee Management System</display-name>
   <welcome-file-list>
     <welcome-file>jsp/index.jsp</welcome-file>
-    <welcome-file>jsp/insert.jsp</welcome-file>
-    <welcome-file>jsp/retrieve.jsp</welcome-file>
-    <welcome-file>jsp/show.jsp</welcome-file>
-    <welcome-file>jsp/update.jsp</welcome-file>
-    <welcome-file>jsp/edit_update.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-    <servlet-name>Insert</servlet-name>
-    <servlet-class>com.services.Insert</servlet-class>
+    <servlet-name>InsertEmployee</servlet-name>
+    <servlet-class>com.services.InsertEmployee</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Insert</servlet-name>
-    <url-pattern>/Insert</url-pattern>
+    <servlet-name>InsertEmployee</servlet-name>
+    <url-pattern>/InsertEmployee</url-pattern>
   </servlet-mapping>
   <servlet>
-    <servlet-name>Retrieve</servlet-name>
-    <servlet-class>com.services.Retrieve</servlet-class>
+    <servlet-name>RetrieveEmployee</servlet-name>
+    <servlet-class>com.services.RetrieveEmployee</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Retrieve</servlet-name>
-    <url-pattern>/Retrieve</url-pattern>
+    <servlet-name>RetrieveEmployee</servlet-name>
+    <url-pattern>/RetrieveEmployee</url-pattern>
   </servlet-mapping>
   <servlet>
-    <servlet-name>Update</servlet-name>
-    <servlet-class>com.services.Update</servlet-class>
+    <servlet-name>RetrieveToUpdateEmployee</servlet-name>
+    <servlet-class>com.services.RetrieveToUpdateEmployee</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Update</servlet-name>
-    <url-pattern>/Update</url-pattern>
+    <servlet-name>RetrieveToUpdateEmployee</servlet-name>
+    <url-pattern>/RetrieveToUpdateEmployee</url-pattern>
   </servlet-mapping>
   <servlet>
-    <servlet-name>EditUpdate</servlet-name>
-    <servlet-class>com.services.EditUpdate</servlet-class>
+    <servlet-name>UpdateEmployee</servlet-name>
+    <servlet-class>com.services.UpdateEmployee</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>EditUpdate</servlet-name>
-    <url-pattern>/EditUpdate</url-pattern>
+    <servlet-name>UpdateEmployee</servlet-name>
+    <url-pattern>/UpdateEmployee</url-pattern>
   </servlet-mapping>
-  
   <servlet>
-    <servlet-name>Delete</servlet-name>
-    <servlet-class>com.services.Delete</servlet-class>
+    <servlet-name>DeleteEmployee</servlet-name>
+    <servlet-class>com.services.DeleteEmployee</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Delete</servlet-name>
-    <url-pattern>/Delete</url-pattern>
+    <servlet-name>DeleteEmployee</servlet-name>
+    <url-pattern>/DeleteEmployee</url-pattern>
   </servlet-mapping>
-  
+  <servlet>
+    <servlet-name>AddProject</servlet-name>
+    <servlet-class>com.services.AddProject</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddProject</servlet-name>
+    <url-pattern>/AddProject</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RetrieveToUpdateProject</servlet-name>
+    <servlet-class>com.services.RetrieveToUpdateProject</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RetrieveToUpdateProject</servlet-name>
+    <url-pattern>/RetrieveToUpdateProject</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UpdateProject</servlet-name>
+    <servlet-class>com.services.UpdateProject</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateProject</servlet-name>
+    <url-pattern>/UpdateProject</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DeleteProject</servlet-name>
+    <servlet-class>com.services.DeleteProject</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteProject</servlet-name>
+    <url-pattern>/DeleteProject</url-pattern>
+  </servlet-mapping>
 </web-app>

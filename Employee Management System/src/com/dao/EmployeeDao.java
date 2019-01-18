@@ -11,7 +11,6 @@ public interface EmployeeDao {
 	boolean update(Employee employee);
 	boolean deleteEmployee(String empid);
 	ResultSet retrieveUpdate(String empid);
-	Employee sortEmployeeBySalary();
-	Employee getEmployeesByProjectId(String project_id);
+	boolean backup();
 
 }
